@@ -16,19 +16,19 @@
 		<AppBar>
 			<svelte:fragment slot="lead">
 				<a href="/">
-					<strong class="text-xl uppercase">Prime Product Partners</strong>
+					<strong class="text-2xl uppercase text-secondary-400">Prime Product Partners</strong>
 				</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
-					class="btn btn-sm variant-ghost-surface"
+					class="btn btn-md variant-ghost-surface text-secondary-400"
 					href="/contact"
 					rel="noreferrer"
 				>
 					Contact Us
 				</a>
 				<a
-					class="btn btn-sm variant-ghost-surface"
+					class="btn btn-md variant-ghost-surface text-secondary-400"
 					href="/services"
 					rel="noreferrer"
 				>
@@ -41,7 +41,7 @@
 	<slot />
 	<!--Footer-->
 	<svelte:fragment slot="pageFooter">
-		<div class="flex flex-col items-center">
+		<div class="flex flex-col items-center text-secondary-400">
 			<strong class="text-xl uppercase">Prime Product Partners</strong>
 			<p class="text-l">info@primeproductpartners.com</p>
 		</div>
