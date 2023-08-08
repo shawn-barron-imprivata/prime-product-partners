@@ -1,3 +1,4 @@
+<body class="gradient-background">
 <section class="primer">
 	<div>
 		<h2>
@@ -43,10 +44,18 @@
 	</div>
 	<img src="/images/creative-img.png" alt="a collection of custom created books.">
 </section>
+</body>
 
 <style>
 	img {
 		max-width: 1500px;
 		max-height: 500px;
+	}
+
+	/* Define a gradient background for a specific element */
+	.gradient-background {
+		background-image: radial-gradient(at 0% 100%,rgba(var(--color-secondary-500) / .5) 0px,transparent 50%), radial-gradient(at 98% 1%,rgba(var(--color-secondary-500) / .33) 0px,transparent 50%);
+		/* background: linear-gradient(to bottom, #6376a3, #a48e5b, #6376a3); */
+		/* You can adjust the color values and gradient direction as needed */
 	}
 </style>

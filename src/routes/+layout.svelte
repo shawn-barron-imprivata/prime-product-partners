@@ -20,18 +20,10 @@
 				</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a
-					class="btn btn-md variant-ghost-surface text-secondary-400"
-					href="/contact"
-					rel="noreferrer"
-				>
+				<a class="btn btn-md variant-ghost-secondary" href="/contact" rel="noreferrer">
 					Contact Us
 				</a>
-				<a
-					class="btn btn-md variant-ghost-surface text-secondary-400"
-					href="/services"
-					rel="noreferrer"
-				>
+				<a class="btn btn-md variant-ghost-secondary" href="/services" rel="noreferrer">
 					Our Services
 				</a>
 			</svelte:fragment>
@@ -41,9 +33,18 @@
 	<slot />
 	<!--Footer-->
 	<svelte:fragment slot="pageFooter">
-		<div class="flex flex-col items-center text-secondary-400">
+		<div class="flex flex-col items-center bg-secondary-500">
 			<strong class="text-xl uppercase">Prime Product Partners</strong>
 			<p class="text-l">info@primeproductpartners.com</p>
 		</div>
 	</svelte:fragment>
 </AppShell>
+
+<style>
+	/* Define a gradient background for a specific element */
+	.gradient-background {
+		background: linear-gradient(to bottom, #ff9900, #ff5500);
+		/* You can adjust the color values and gradient direction as needed */
+		padding: 20px;
+	}
+</style>
