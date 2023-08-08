@@ -33,18 +33,9 @@
 	<slot />
 	<!--Footer-->
 	<svelte:fragment slot="pageFooter">
-		<div class="flex flex-col items-center bg-secondary-500">
+		<div class="flex flex-col items-center bg-gradient-to-br variant-gradient-surface-secondary">
 			<strong class="text-xl uppercase">Prime Product Partners</strong>
 			<p class="text-l">info@primeproductpartners.com</p>
 		</div>
 	</svelte:fragment>
 </AppShell>
-
-<style>
-	/* Define a gradient background for a specific element */
-	.gradient-background {
-		background: linear-gradient(to bottom, #ff9900, #ff5500);
-		/* You can adjust the color values and gradient direction as needed */
-		padding: 20px;
-	}
-</style>
