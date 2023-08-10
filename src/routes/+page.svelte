@@ -12,9 +12,9 @@
 	</section>
 	<section class="section-1 flex flex-col items-center justify-center text-center p-10 border-t-8 border-secondary-500">
 		<div>
-			<h2 class="text text-4xl">Unlock a New Revenue Stream</h2>
+			<h2 class="text text-5xl">Unlock a New Revenue Stream</h2>
 			<div class="flex flex-wrap items-center justify-between mb-6">
-				<p class="w-full md:w-1/2 text text-2xl">
+				<p class="w-full md:w-1/2 text text-3xl">
 					Every Business Can Benefit from an Additional Revenue Stream, Especially Small
 					Enterprises!
 				</p>
@@ -28,9 +28,9 @@
 	</section>
 	<section class="section-2 flex flex-col items-center justify-center text-center p-10 border-t-8 border-secondary-500">
 		<div>
-			<h2 class="text text-4xl">Expand Your Reach</h2>
+			<h2 class="text text-5xl">Expand Your Reach</h2>
 			<div class="flex flex-wrap items-center justify-between mb-6">
-				<p class="w-full md:w-1/2 text text-2xl">
+				<p class="w-full md:w-1/2 text text-3xl">
 					Get noticed by thousands of new customers, all while keeping the same small business feel!
 				</p>
 				<img
@@ -43,9 +43,9 @@
 	</section>
 	<section class="section-3 flex flex-col items-center justify-center text-center p-10 border-t-8 border-secondary-500">
 		<div>
-			<h2 class="text text-4xl">Use Amazon in Creative Ways</h2>
+			<h2 class="text text-5xl">Use Amazon in Creative Ways</h2>
 			<div class="flex flex-wrap items-center justify-between mb-6">
-				<p class="w-full md:w-1/2 text text-2xl">
+				<p class="w-full md:w-1/2 text text-3xl">
 					Leverage Amazon to sell you hand made goods, publish books, and partner with other
 				businesses to create unique product offerings
 				</p>
