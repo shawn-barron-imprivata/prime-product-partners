@@ -1,7 +1,7 @@
 <body class="gradient-background">
 	<section class="primer text-center">
 		<div>
-			<h1 class="text text-6xl">Elevate Your Brand, Expand Your Reach</h1>
+			<h1 class="text text-5xl">Elevate Your Brand, Expand Your Reach</h1>
 			<p class="text text-2xl justify-center">
 				At Prime Product Partners, we provide the most creative strategies revolving around your
 				Amazon store creation. We pride ourselves on working exclusively with small and local
