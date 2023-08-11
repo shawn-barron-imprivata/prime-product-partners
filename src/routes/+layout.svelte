@@ -24,7 +24,9 @@
 			</svelte:fragment>
 			<div class="app-bar-content">
 				<div class="center-container">
+					<a href="/">
 					<strong class="company-name text-4xl uppercase text-secondary-400">Prime Product Partners</strong>
+					</a>
 				</div>
 			</div>
 		</AppBar>

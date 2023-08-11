@@ -30,14 +30,14 @@
 		<div>
 			<h2 class="text text-5xl">Expand Your Reach</h2>
 			<div class="flex flex-wrap items-center justify-between mb-6">
-				<p class="w-full md:w-1/2 text text-3xl">
-					Get noticed by thousands of new customers, all while keeping the same small business feel!
-				</p>
 				<img
-					src="/images/creative-img.png"
+					src="/images/reach-img.png"
 					alt="a hand holding a smartphone showing amazon sales."
 					class="w-full md:w-1/2 max-h-500 mb-4 md:mb-0"
 				/>
+				<p class="w-full md:w-1/2 text text-3xl">
+					Get noticed by thousands of new customers, all while keeping the same small business feel!
+				</p>
 			</div>
 		</div>
 	</section>
@@ -80,6 +80,7 @@
 	.primer {
 		margin-left: 100px;
 		margin-right: 100px;
+		margin-top: 20px;
 	}
 
 	.section-1 {
