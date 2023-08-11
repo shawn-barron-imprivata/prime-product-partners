@@ -1,41 +1,63 @@
 <script>
-	// The ordering of these imports is critical to your app working properly
 	import '@skeletonlabs/skeleton/themes/theme-hamlindigo.css';
-	// If you have source.organizeImports set to true in VSCode, then it will auto change this ordering
 	import '@skeletonlabs/skeleton/styles/skeleton.css';
-	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { text } from 'svelte/internal';
 </script>
 
-<!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
-		<!-- App Bar -->
-		<AppBar>
+		<AppBar class="text-center">
 			<svelte:fragment slot="lead">
 				<a href="/">
-					<strong class="text-xl uppercase">Prime Product Partners</strong>
+					<img src="/images/ppp_logo.png" alt="company logo">
 				</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="/contact"
-					rel="noreferrer"
-				>
+				<a class="btn btn-md variant-ghost-secondary" href="/contact" rel="noreferrer">
 					Contact Us
 				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="/services"
-					rel="noreferrer"
-				>
+				<a class="btn btn-md variant-ghost-secondary" href="/services" rel="noreferrer">
 					Our Services
 				</a>
 			</svelte:fragment>
+			<div class="app-bar-content">
+				<div class="center-container">
+					<a href="/">
+					<strong class="company-name text-4xl uppercase text-secondary-400">Prime Product Partners</strong>
+					</a>
+				</div>
+			</div>
 		</AppBar>
 	</svelte:fragment>
-	<!-- Page Route Content -->
+
 	<slot />
+
+	<svelte:fragment slot="pageFooter">
+		<div class="flex flex-col items-center bg-gradient-to-br variant-gradient-surface-secondary">
+			<strong class="text-xl uppercase">Prime Product Partners</strong>
+			<p class="text-l">info@primeproductpartners.com</p>
+		</div>
+	</svelte:fragment>
 </AppShell>
+
+<style>
+	img {
+		max-width: 80px;
+		max-height: 60px;
+	}
+
+	.app-bar-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+
+	.center-container {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+</style>
