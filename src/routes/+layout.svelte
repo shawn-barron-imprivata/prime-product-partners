@@ -31,7 +31,7 @@
 			</div>
 		</AppBar>
 	</svelte:fragment>
-
+	
 	<slot />
 
 	<svelte:fragment slot="pageFooter">
