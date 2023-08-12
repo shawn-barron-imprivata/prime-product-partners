@@ -35,7 +35,7 @@
 	<slot />
 
 	<svelte:fragment slot="pageFooter">
-		<div class="flex flex-col items-center bg-gradient-to-br variant-gradient-surface-secondary">
+		<div class="flex flex-col items-center bg-surface-500">
 			<strong class="text-xl uppercase">Prime Product Partners</strong>
 			<p class="text-l">info@primeproductpartners.com</p>
 		</div>
