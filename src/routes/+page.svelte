@@ -1,3 +1,10 @@
+<script>
+	// Import any necessary dependencies here
+  
+	// Specify the layout to use
+	export let layout = import('./+page.svelte');
+  </script>
+
 <body class="gradient-background">
 	<section class="primer text-center">
 		<div>
