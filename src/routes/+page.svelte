@@ -1,8 +1,15 @@
-<body class="gradient-background">
+<script>
+	// Import any necessary dependencies here
+  
+	// Specify the layout to use
+	export let layout = import('./+page.svelte');
+  </script>
+
+<body class="body">
 	<section class="primer text-center">
 		<div>
 			<h1 class="text text-5xl">Elevate Your Brand, Expand Your Reach</h1>
-			<p class="text text-2xl justify-center">
+			<p class="primer-description text text-2xl justify-center">
 				At Prime Product Partners, we provide the most creative strategies revolving around your
 				Amazon store creation. We pride ourselves on working exclusively with small and local
 				businesses. If you run a business or even just hand-make your own art or custom items,
@@ -66,24 +73,28 @@
 	}
 
 	/* Define a gradient background for a specific element */
-	.gradient-background {
+	.body {
 		background-image: radial-gradient(
 				at 0% 100%,
 				rgba(var(--color-secondary-500) / 0.5) 0px,
 				transparent 50%
 			),
 			radial-gradient(at 98% 1%, rgba(var(--color-secondary-500) / 0.33) 0px, transparent 50%);
-		/* background: linear-gradient(to bottom, #6376a3, #a48e5b, #6376a3); */
+		background: linear-gradient(to bottom, #6376a3, #a48e5b, #6376a3);
 		/* You can adjust the color values and gradient direction as needed */
 	}
 
 	.primer {
-		margin-left: 100px;
-		margin-right: 100px;
+		margin-left: 30ex;
+		margin-right: 30ex;
 		margin-top: 20px;
 	}
 
 	.section-1 {
 		margin-top: 50px;
 	}
+
+	.primer-description {
+        margin-top: 3ex;
+    }
 </style>
